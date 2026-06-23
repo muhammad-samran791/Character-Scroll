@@ -2,7 +2,7 @@ function locomotive() {
   gsap.registerPlugin(ScrollTrigger);
   const locoScroll = new LocomotiveScroll({
     el: document.querySelector("#main"),
-    smooth: true ,
+    smooth: true,
   });
   locoScroll.on("scroll", ScrollTrigger.update);
 
@@ -395,7 +395,7 @@ function scaleImage(img, ctx) {
     centerShift_x,
     centerShift_y,
     img.width * ratio,
-    img.height * ratio
+    img.height * ratio,
   );
 }
 ScrollTrigger.create({
